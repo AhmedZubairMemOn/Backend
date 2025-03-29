@@ -4,7 +4,7 @@ const app = express()
 const connectDB = require("./controllers/db/connect")
 
 
-const PORT = process.env.PORT || 2000
+const PORT = process.env.PORT || 8080
 
 const products_routes = require("./routes/products")
 
